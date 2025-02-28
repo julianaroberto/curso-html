@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+h1 {
+    color: #F6F6F6;
+    
+}
+
+strong {
+    color: #22D4FD;
+}
+p {
+    color: #F6F6F6;
+   
+}
+button {
+    background-color:#22D4FD;
+    color: #F6F6F6;
+    border: none; 
+    padding: 10px;
+}
+
+a {
+    color: black;
+    font-weight: bold;
+}
+}
