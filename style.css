@@ -30,7 +30,7 @@ button {
     border-radius: 5px;
 }
 
-a {
+.instagram, .github {
     color: black;
     font-weight: bold;
     border: none;
