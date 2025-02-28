@@ -1,26 +1,40 @@
-body{
-    background-color: black;
-h1 {
-    color: #F6F6F6;
-    
+* {
+    margin: 0;
+    padding: 0;
 }
 
-strong {
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: black;
+
+h1 {
+    color: #F6F6F6;
+}
+
+.titulo-destaque {
     color: #22D4FD;
 }
+
 p {
     color: #F6F6F6;
-   
 }
+
 button {
     background-color:#22D4FD;
     color: #F6F6F6;
     border: none; 
-    padding: 10px;
+    padding: 16px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 
 a {
     color: black;
     font-weight: bold;
+    border: none;
+    text-decoration: none;
 }
+
 }
