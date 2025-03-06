@@ -12,7 +12,7 @@
 
   
 body{
-    height: 100vh;
+    /* height: 100vh; */
     box-sizing: border-box;
     background-color: black;
 
@@ -21,7 +21,7 @@ body{
 }
 
 .apresentacao {
-    margin: 10% 5%;
+    padding: 8% 5%;
     display: flex;    
     align-items: center;
     justify-content: space-between;
@@ -90,6 +90,17 @@ button {
     color: #F6F6F6;
     font-weight: 600;
     font-family: "Montserrat", sans-serif;
+}
+
+.rodape {
+    padding: 24px;
+    text-align: center;
+    color: #000;
+    background-color: #22D4FD;
+    font-family: "Montserrat", sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+
 }
 
 }
