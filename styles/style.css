@@ -58,6 +58,12 @@ body{
     font-style: normal;
 }
 
+.perfil {
+    margin-top: 5%;
+    border-radius: 50px;
+    width: 250px;
+} 
+
 .titulo-destaque {
     color: #22D4FD;
 }
