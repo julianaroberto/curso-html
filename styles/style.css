@@ -5,6 +5,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
+:root {
+    --cor-primaria: #000000; 
+    --cor-secundaria: #F6F6F6;
+    --cor-terciaria: #22D4FD; 
+    --cor-hover: #272727;   
+
+    --fonte-primaria: 'Krona One', sans-serif;  
+    --fonte-secundaria: 'Montserrat', sans-serif;  
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +24,7 @@
 body{
     /* height: 100vh; */
     box-sizing: border-box;
-    background-color: black;
+    background-color: var(--cor-primaria);
 }
 
 .cabecalho {
@@ -27,10 +37,10 @@ body{
 }
 
 .cabecalho__menu__link {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
     text-decoration: none;
 
 }
@@ -52,8 +62,8 @@ body{
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    color: #F6F6F6;
-    font-family: "Krona One", sans-serif;
+    color: var(--cor-secundaria);
+    font-family:var(--fonte-primaria);
     font-weight: 400;
     font-style: normal;
 }
@@ -65,17 +75,17 @@ body{
 } 
 
 .titulo-destaque {
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__conteudo__titulo:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 .apresentacao__conteudo__titulo__texto, .apresentacao__conteudo__texto{
     font-size: 24px;
-    color: #F6F6F6;
-    font-family: "Montserrat", sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-secundaria);
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
@@ -83,7 +93,7 @@ body{
 
 .apresentacao__conteudo__texto a{
     text-decoration: none;
-    color: #22D4FD;
+    color: var(--cor-terciaria);
 }
 
 .apresentacao__btn {
@@ -96,14 +106,14 @@ body{
 }
 
 .apresentacao__subtitulo{
-    color: #F6F6F6;
-    font-family: 'Krona One', sans-serif;
+    color: var(--cor-secundaria);
+    font-family: var(--fonte-primaria);
     font-weight: 400;
     font-size: 24px;
 }
 
 button:hover {
-    background-color: #272727;
+    background-color: var(--cor-hover);
 }
 
 button {
@@ -112,22 +122,22 @@ button {
     gap: 16px;
     background: none;
     width: 378px;
-    border: 2px solid #22D4FD; 
+    border: 2px solid var(--cor-terciaria); 
     padding: 21px 0; 
     cursor: pointer;
     border-radius: 8px;
     font-size: 24px;
-    color: #F6F6F6;
+    color: var(--cor-secundaria);
     font-weight: 600;
-    font-family: "Montserrat", sans-serif;
+    font-family: var(--fonte-secundaria);
 }
 
 .rodape {
     padding: 24px;
     text-align: center;
-    color: #000;
-    background-color: #22D4FD;
-    font-family: "Montserrat", sans-serif;
+    color: var(--cor-primaria);
+    background-color: var(--cor-terciaria);
+    font-family: var(--fonte-secundaria);
     font-size: 24px;
     font-weight: 400;
 
