@@ -37,7 +37,7 @@ body{
 
 .cabecalho__menu__link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -60,7 +60,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     color: var(--cor-secundaria);
     font-family:var(--fonte-primaria);
     font-weight: 400;
@@ -76,7 +76,7 @@ body{
 }
 
 .apresentacao__conteudo__titulo__texto, .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
     font-optical-sizing: auto;
@@ -87,7 +87,7 @@ body{
 .apresentacao__sub {
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
-    font-size: 20px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__conteudo__texto a{
@@ -108,7 +108,7 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 button:hover {
@@ -125,7 +125,7 @@ button {
     padding: 21px 0; 
     cursor: pointer;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-secundaria);
     font-weight: 600;
     font-family: var(--fonte-secundaria);
@@ -137,7 +137,7 @@ button {
     color: var(--cor-primaria);
     background-color: var(--cor-terciaria);
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
 
 }
